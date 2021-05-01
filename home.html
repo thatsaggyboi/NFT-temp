@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- fonr-awesome cdn  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <title>Galaxy of Arts | Home</title>
+  </head>
+  <body>
+
+    <!-- overlay for mobile navigation  -->
+
+    <div class="overlay" id="active" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onclick="toggle()"></div>
+
+    <!-- header - section  -->
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-white navbar-default navbar-static-top">
+      <div class="container container--mb">
+        <a class="navbar-brand" href="./home.html">
+          <img src="./img/ic_logo.svg" alt="goa-logo" class="goa-logo" />
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onclick="toggle()">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Creators</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Connect Wallet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <div class="login-reg">
+              <a class="btn btn--login">Login</a>
+              <a class="btn btn--fill btn--reg">Register</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+    <!-- hero-section  -->
+<!-- 
+    <div class="container">
+      <section class="hero flex">
+        <div class="hero__content">
+          <h1 class="heading heading-1 hero__heading pb_3">
+            The largest NFT marketplace
+          </h1>
+          <p class="para-text hero__sub pb_4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie fermentum elit eu pellentesque. Aenean venenatis et orci sed interdum.
+          </p>
+          <a class="btn btn--fill hero__btn">
+            Learn More
+          </a>
+        </div>
+        <div class="hero__img">
+          <img src="./img/home/illu__hero.png" alt="hero-img" class="hero-img">
+        </div>
+      </section>
+    </div> -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container mobile-nav-flex">
+         <div class="container-mobile">
+           <a class="navbar-brand" href="./home.html">
+               <img src="./img/ic_logo.svg" alt="logo">
+           </a>
+         </div>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="#">Discover</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Marketplace</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Connect Wallet</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">About Us</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Contact Us</a>
+             </li>
+           </ul>
+           <form class="form-inline my-2 my-lg-0">
+             <button class="btn btn-login my-2 my-sm-0" type="submit">Login</button>
+             <button class="btn btn-register my-2 my-sm-0" type="submit">Register</button>
+           </form>
+         </div>
+      </div>
+    </nav>
+  -->
+    
+    <!-- <section class="main-div">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-xl-6 col-lg-6">
+            <div class="hero__sec">
+              <h1 class="heading-1">The largest NFT marketplace</h1>
+              <p class="para-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, ea? 
+                Nobis, labore dolorem.Perspiciatis aspernatur quidem totam voluptatum
+              </p>
+              <button class="btn-learn-more">Learn More</button>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-6">
+            <img src="./img/home/illu__hero.svg" alt="hero_img"/>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- treding - section  -->
+
+    <div class="container">
+      <section class="trending" style="margin-top: 400px" >
+        <div class="trending__header section-header flex pb_1 mb_4">
+          <h3 class="heading heading-3 treding__heading">Trending Bids</h3>
+          <a class="btn--view">
+            <span class="text text--active"> View All </span>
+            <img src="./img/home/ic_right-arrow.svg" alt="ic_right-angle" class="img-trending__angle" />
+          </a>
+        </div>
+        <div class="custom-cards trending__cards">
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-2.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending01.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-3.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending02.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-4.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-2.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-3.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-4.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- featured - section  -->
+
+    <div class="container">
+      <section class="featured pt_5">
+        <div class="featured__header section-header flex pb_1 mb_4">
+          <h3 class="heading heading-3 featured__heading">Featured Artworks</h3>
+          <a class="btn--view">
+            <span class="text text--active"> View All </span>
+            <img src="./img/home/ic_right-arrow.svg" alt="ic_right-angle" class="img-trending__angle" />
+          </a>
+        </div>
+        <div class="custom-cards featured__cards">
+          <div class="custom-card featured__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card trending__card">
+            <div class="custom-card__header flex pb_2">
+              <div class="user-part">
+                <img src="./img/home/ic_user-1.svg" alt="user-img" class="img-trending--user" />
+                <span class="user-id text text--blue">
+                   @mymasterart 
+                </span>
+              </div>
+              <div class="like-part">
+                <input type="radio" id="heart" name="heart" />
+                <input type="radio" id="heart-fill" name="heart" />
+                <div class="heart-class">
+                  <label for="heart">
+                    <div class="heart heart--empty"></div>
+                  </label>
+                  <label for="heart-fill">
+                    <div class="heart heart--fill"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="custom-card__img-container">
+              <img src="./img/home/home__trending.svg" alt="trending-img" class="trending-img">
+            </div>
+            <div class="custom-card__details">
+              <span class="art-id text">
+                Abstract.Art #10025
+              </span>
+              <span class="price-tag text">
+                Price
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+            </div>
+            <div class="custom-card__bid-details">
+              <span class="bid-tag text text--blue">
+                Current Bid
+              </span>
+              <span class="timelapse-tag text text--blue ml-auto">
+                Timelapse
+              </span>
+              <div class="crypto-price">
+                <img src="./img/home/ic_eth--white.svg" alt="crypto-icon" class="crypto-icon">
+                <span class="price text">
+                  5.65 ETH
+                </span>
+              </div>
+              <div class="timelapse-part">
+                <img src="./img/home/ic_timelapse.svg" alt="timelapse-icon" class="timelapse-icon">
+                <span class="time-left text text--grey">
+                  5 Hours Left
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- creator - section  -->
+
+    <div class="container">
+      <section class="creator pt_5">
+        <div class="creator__header section-header flex pb_1 mb_4">
+          <h3 class="heading heading-3 featured__heading">Creators</h3>
+          <a class="btn--view">
+            <span class="text text--active"> View All </span>
+            <img src="./img/home/ic_right-arrow.svg" alt="ic_right-angle" class="img-trending__angle" />
+          </a>
+        </div>
+        <div class="custom-cards creator__cards">
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-5.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">          
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner01.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-6.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner02.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-7.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner03.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-5.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner04.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-8.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner05.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-9.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner06.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-6.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card creator__card">
+            <div class="custom-card__banner-container">
+              <img src="./img/home/home__banner07.svg" alt="banner-img" class="banner-img">
+              <div class="custom-card__profile-container">
+                <img src="./img/home/ic_user-11.svg" alt="profile-img" class="profile-img">
+              </div>
+            </div>
+            <div class="custom-card__content creator--details">
+              <div class="custom-card--upper">
+                <div class="custom-card__profile-name">
+                  <span class="user-name heading-2 heading-2--creator">
+                    Brayden Hutchison
+                  </span>
+                  <span class="user-id text">
+                    @mymasterart
+                  </span>
+                </div>
+                <div class="custom-card__profile-content">
+                  <p class="content para-text para-text--card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor sem non turpis sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="custom-card--bottom creator__follower flex">
+                <div class="custom-card__left">
+                  <span class="follow-number heading-2 heading-2--creator">
+                    1225
+                  </span>
+                  <span class="follower-tag text text--blue">
+                    Followers
+                  </span>
+                </div>
+                <div class="custom-card__right">
+                  <a class="btn btn--follow">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <section class="about-us-sec">
+      <div class="about-div">
+        <img src="./img/home/Aboutusimg.svg" alt="aboutus"/>
+        <h1 class="heading-1">About Us</h1>
+        <p class="para-text">
+          Galaxy of Arts lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare elit eu tristique blandit. 
+          Donec sed urna tristique, porta velit eget, condimentum erat. Duis lorem ligula, mollis quis lorem eget, sagittis placerat lacus. 
+          Interdum et malesuada fames ac ante ipsum. 
+        </p>
+        <button class="btn-learn-more">Get Started</button>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="container">
+          <div class="footersec">
+              <div class="footer__copyright">
+                  <span class="text">
+                      Copyright &copy; 2021 Galaxy of Arts | All rights Reserved.
+                  </span>
+              </div>
+              <div class="footer__location">
+                  <span class="text">
+                     Design and Developed by Stalwart info.
+                  </span>
+              </div>
+              <div class="footer__social">
+                  <span class="text">
+                      Follow us on
+                  </span>
+                  <div class="dot footer__social--fb">
+                      <i class="fab fa-facebook-f social"></i>
+                  </div>
+                  <div class="dot footer__social--twitter">
+                      <i class="fab fa-twitter social"></i>
+                  </div>
+                  <div class="dot footer__social--linkedin">
+                      <i class="fab fa-linkedin-in social"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </footer> -->
+  
+
+    <script>
+      const clickArea = document.querySelector('.custom-card__img-container');
+
+      const showHeart = () => {
+        const heart = document.createElement('i');
+        const el = document.getElementById("heart-fill");
+        heart.classList.add('fas');
+        heart.classList.add('fa-heart');
+        clickArea.appendChild(heart);
+        if(el.checked == false) {
+          el.checked = true;
+        } else {
+          el.checked = false;
+        }
+
+        console.log("hii")
+        
+        setTimeout(() => {
+          heart.remove();
+        }, 800)
+      }
+
+      clickArea.addEventListener('dblclick', (e) => {
+        showHeart(e);
+      });
+    </script>
+
+    <script>
+      function toggle() {
+        var element = document.getElementById("active");
+        element.classList.toggle("active");
+      }
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
